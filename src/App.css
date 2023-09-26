@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+:root {
+    --cor1: #1A4466;
+    --cor2: #81BAEA;
+    --cor3: #3A99E6;
+    --cor4: #385166;
+    --cor5: #2D76B3;
+
+    --font: 'Caveat', cursive;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../../maradona/src/images/background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+article {
+  background-color: rgba(255, 255, 255, 0.877);
+  min-width: 300px;
+  max-width: 900px;
+  margin: auto;
+  margin-top: 4px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.623);
+}
+
+article p {
+  text-align: justify;
+  text-indent: 30px;
+  line-height: 1.5em;
+  margin: 0px 20px;
+}
+
+article hr {
+  height: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+article img {
+  margin: auto;
+  display: block;
+  max-width: 400px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-family: var(--font);
+  font-size: 2em;
+  color: var(--cor1);
+  text-indent: 20px;
+  padding: 15px;
+}
+
+h2 {
+  background-image: linear-gradient(to right, var(--cor1), var(--cor3));
+  font-family: var(--font);
+  font-size: 1.9em;
   color: white;
+  text-indent: 20px;
+  margin: 20px;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+h3 {
+  font-family: var(--font);
+  font-size: 1.7em;
+  color: var(--cor4);
+  text-indent: 20px;
+  margin: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h4 {
+  font-family: var(--font);
+  font-size: 1.5em;
+  color: var(--cor5);
+  text-indent: 20px;
+  margin: 20px;
 }
