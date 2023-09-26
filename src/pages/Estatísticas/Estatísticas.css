@@ -1,0 +1,35 @@
+h1.titulos {
+    text-align: center;
+}
+
+table {
+    width: 750px;
+    margin: auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    color: white;
+    background-color: var(--cor3);
+}
+
+div#tb1, div#tb2 {
+    overflow: auto;
+}
+
+thead th, tfoot th {
+    color: white;
+    background-color: var(--cor4);
+}
+
+td.total {
+    color: white;
+    font-weight: bolder;
+    background-color: var(--cor4);
+}

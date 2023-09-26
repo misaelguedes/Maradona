@@ -1,0 +1,12 @@
+h1.titulos {
+    text-align: center;
+}
+
+p.titulos {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ul {
+    padding-left: 50px;
+}

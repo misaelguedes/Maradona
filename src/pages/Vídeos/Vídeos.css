@@ -1,0 +1,19 @@
+h1.titulos {
+    text-align: center;
+}
+
+div.video {
+    background-color: var(--cor3);
+    margin: 20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
