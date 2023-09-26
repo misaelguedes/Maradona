@@ -14,3 +14,12 @@
     box-shadow: none;
     animation: spin 5s linear infinite;
 }
+
+@media screen and (max-width: 646px) {
+    .imgHome {
+        max-width: 180px;
+        float: none;
+        display: block;
+        margin: auto;
+    }
+}

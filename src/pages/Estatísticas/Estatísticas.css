@@ -33,3 +33,9 @@ td.total {
     font-weight: bolder;
     background-color: var(--cor4);
 }
+
+@media screen and (max-width: 646px) {
+    table {
+        max-width: 150px;
+    }
+}

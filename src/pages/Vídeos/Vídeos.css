@@ -17,3 +17,9 @@ div.video > iframe {
     width: 90%;
     height: 90%;
 }
+
+@media screen and (max-width: 646px) {
+    div.video {
+        max-width: 85%;
+    }
+}

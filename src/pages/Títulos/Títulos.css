@@ -10,3 +10,9 @@ p.titulos {
 ul {
     padding-left: 50px;
 }
+
+@media screen and (max-width: 646px) {
+    ul {
+        max-width: 90%;
+    }
+}
